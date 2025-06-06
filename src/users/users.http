@@ -1,0 +1,28 @@
+###List users
+GET http://localhost:3000/users
+
+###Get user
+GET http://localhost:3000/users/3
+
+###Create user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "firstName": "Vinicius",
+    "lastName": "Santos",
+    "email": "vinicius.santos@email.com",
+    "password": "suppaPass",
+    "dateOfBirth": "1995-10-23"
+}
+
+###Update user
+PATCH http://localhost:3000/users/5
+Content-Type: application/json
+
+{
+    "firstName": "Vinicius Messias"
+}
+
+###Delete user
+DELETE http://localhost:3000/users/8
