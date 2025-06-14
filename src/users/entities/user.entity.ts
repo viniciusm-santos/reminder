@@ -14,6 +14,9 @@ export class User {
   @Column()
   email: string;
 
+  @Column({ type: 'varchar', nullable: true })
+  password: string;
+
   @Column()
   dateOfBirth: string;
 

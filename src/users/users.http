@@ -2,7 +2,7 @@
 GET http://localhost:3000/users
 
 ###Get user
-GET http://localhost:3000/users/3
+GET http://localhost:3000/users/13
 
 ###Create user
 POST http://localhost:3000/users
@@ -25,4 +25,4 @@ Content-Type: application/json
 }
 
 ###Delete user
-DELETE http://localhost:3000/users/8
+DELETE http://localhost:3000/users/12

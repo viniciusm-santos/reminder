@@ -1,0 +1,16 @@
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email": "vinicius.santos@email.com",
+    "password": "suppaPass"
+}
+
+###
+
+GET http://localhost:3000/auth/profile
+
+####
+
+GET http://localhost:3000/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjExLCJlbWFpbCI6InZpbmljaXVzLnNhbnRvc0BlbWFpbC5jb20iLCJpYXQiOjE3NDk5MDgzNTAsImV4cCI6MTc0OTkwODQxMH0.fS8KeLtsIbmDoTHUorB72fr8_qkCuaTz9BB34pGLThM
